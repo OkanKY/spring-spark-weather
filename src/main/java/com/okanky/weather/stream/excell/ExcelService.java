@@ -4,7 +4,7 @@ import com.okanky.weather.stream.model.WeatherData;
 
 import java.util.List;
 
-public interface ExcellService
+public interface ExcelService
 {
     List<WeatherData> getDataFromExcell();
 }

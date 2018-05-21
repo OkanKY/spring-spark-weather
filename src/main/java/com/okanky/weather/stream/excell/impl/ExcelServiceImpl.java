@@ -1,6 +1,6 @@
 package com.okanky.weather.stream.excell.impl;
 
-import com.okanky.weather.stream.excell.ExcellService;
+import com.okanky.weather.stream.excell.ExcelService;
 import com.okanky.weather.stream.model.WeatherData;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -15,7 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 
 @Service
-public class ExcellServiceImpl implements ExcellService {
+public class ExcelServiceImpl implements ExcelService {
     private static final String FILE_NAME = "src\\main\\resources\\temp\\veri.xlsx";
 
     @Override
